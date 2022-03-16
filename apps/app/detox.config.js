@@ -3,7 +3,7 @@ const emulator = "Pixel_3a_API_30";
 const simulator = "iPhone 13 Pro";
 const derivedDataPath = "ios/build";
 const sdk = "iphonesimulator";
-console.log({path: `${derivedDataPath}/Build/Products/Debug-${sdk}/${iosName}.app`})
+
 module.exports = {
   testRunner: "jest",
   runnerConfig: require.resolve("./e2e/jest.config.js"),
@@ -22,7 +22,7 @@ module.exports = {
     "ios.debug": {
       type: "ios.app",
       binaryPath: `${derivedDataPath}/Build/Products/Debug-${sdk}/${iosName}.app`,
-      build: `./scripts/start-metro.sh && ./scripts/build-detox-ios.sh ${iosName} Debug`,
+      build: `./scripts/start-metro.sh && ./scripts/build-detox-ios.sh ${iosName} Debug;`,
     },
     "android.debug": {
       type: "android.apk",

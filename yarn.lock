@@ -1081,11 +1081,11 @@
     minimist "^1.2.0"
 
 "@config-plugins/detox@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@config-plugins/detox/-/detox-1.2.0.tgz#4edd65b2233c9745f4ea4aec3df2c0a19d517a98"
-  integrity sha512-U5LCqYutsBeNrQU7M64nM9e0ZhnrTV91fWcwh8D32KDMOwekixHLdqy/FnDLNh8mIPv9EjMx1WH+ILMCaIwFRg==
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@config-plugins/detox/-/detox-1.2.1.tgz#45d86f58d9b22ad5dc70cd0d5655a67b832cec85"
+  integrity sha512-pCFAt2400K6WusZIW9cY9HGJEpdnoaNb4ySKtOWOKffjmJhGZXlVJ2T3TbUaWTWP6IksPcPSQb31ZWT+H7wTfA==
   dependencies:
-    "@expo/config-plugins" "^4.0.7"
+    "@expo/config-plugins" "^4.1.0"
 
 "@expo/config-plugins@4.0.6":
   version "4.0.6"
@@ -1108,7 +1108,7 @@
     xcode "^3.0.1"
     xml2js "0.4.23"
 
-"@expo/config-plugins@4.1.0", "@expo/config-plugins@^4.0.2", "@expo/config-plugins@^4.0.7":
+"@expo/config-plugins@4.1.0", "@expo/config-plugins@^4.0.2", "@expo/config-plugins@^4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-4.1.0.tgz#0365e2e51e2e3e3b4e7db1fbbada5be661798be6"
   integrity sha512-+Uq7kzi1StUZZZivnnqNV6+v8b+SMF6MDgH+cEZxCoM9uwLXOK0rTAURzBGtl+C6EEbKnoZmnKGuzABBGPRP7A==

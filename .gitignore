@@ -9,8 +9,8 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
-ios/*
-android/*
+ios/
+android/
 e2e/bin/*
 
 # macOS

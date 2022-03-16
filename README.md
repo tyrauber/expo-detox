@@ -1,7 +1,9 @@
 # expo-detox
 Expo @config-plugins/detox example
 
-Building mobile apps in Expo is easy. Testing Expo mobile apps... not so much. Until, Expo's @EvanBacon  built a detox config plugin. Well, now... it's still hard, but a hell of a lot easier than it was. Thanks, Evan.
+Building mobile apps in Expo is easy. Testing Expo mobile apps... not so much. 
+
+Until, [@config-plugins/detox](@config-plugins/detox). Thanks, [@evanbacon](https://github.com/evanbacon). Mad Props.
 
 This Expo example uses the `expo-template-tabs` template to demonstrate a single test of react-navigation tabs.
 
