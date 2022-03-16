@@ -3,18 +3,18 @@ name: E2E Test
 on:
   push:
     branches: [main]
-    paths:
-      - .github/workflows/e2e.yml
-      - /apps/app/**
-      - packages/**
-      - package.json
-      - yarn.lock
+    # paths:
+    #   - .github/workflows/e2e.yml
+    #   - /apps/app/**
+    #   - packages/**
+    #   - package.json
+    #   - yarn.lock
   pull_request:
-    paths:
-      - .github/workflows/e2e.yml
-      - /apps/app/**
-      - packages/**
-      - yarn.lock
+    # paths:
+    #   - .github/workflows/e2e.yml
+    #   - /apps/app/**
+    #   - packages/**
+    #   - yarn.lock
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.ref }}
