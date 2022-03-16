@@ -5,13 +5,14 @@ on:
     branches: [main]
     paths:
       - .github/workflows/e2e.yml
-      - /apps/app
+      - /apps/app/**
       - packages/**
+      - package.json
       - yarn.lock
   pull_request:
     paths:
       - .github/workflows/e2e.yml
-      - /apps/app
+      - /apps/app/**
       - packages/**
       - yarn.lock
 

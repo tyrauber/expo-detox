@@ -33,6 +33,7 @@ This Expo example uses the `expo-template-tabs` template to demonstrate a single
 - [Copy these two bash scripts](https://github.com/expo/config-plugins/tree/main/apps/app/scripts) to ./scripts
   + build-detox-ios.sh 
   + start-metro.sh
++ Set execute permissions: `$ chmod +x scripts/*.sh`
 - Update your package.json with the appropriate scripts
 ```
   "build:ios": "detox build -c ios.sim.debug",

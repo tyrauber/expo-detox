@@ -1,6 +1,6 @@
 const iosName = "detox";
-const emulator = "Pixel_3a_API_30";
-const simulator = "iPhone 13 Pro";
+const emulator = process.env.CI ? "app" : "Pixel_3a_API_30";
+const simulator = "iPhone 11";
 const derivedDataPath = "ios/build";
 const sdk = "iphonesimulator";
 
