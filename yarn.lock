@@ -1080,10 +1080,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@config-plugins/detox@^1.2.0":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@config-plugins/detox/-/detox-1.2.1.tgz#45d86f58d9b22ad5dc70cd0d5655a67b832cec85"
-  integrity sha512-pCFAt2400K6WusZIW9cY9HGJEpdnoaNb4ySKtOWOKffjmJhGZXlVJ2T3TbUaWTWP6IksPcPSQb31ZWT+H7wTfA==
+"@config-plugins/detox@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@config-plugins/detox/-/detox-1.2.2.tgz#f720b95dde23cca866b07757a68a5e72b8a107ec"
+  integrity sha512-dTcrdXxU9ub9+hxjWsoyBgbDf9NmqZI3Fd4XrPn3Eltnd5+F8jQ+oooSsy7284QziOHXfobEcUJcdVfKd2gl/Q==
   dependencies:
     "@expo/config-plugins" "^4.1.0"
 
